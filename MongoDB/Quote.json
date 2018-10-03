@@ -1,0 +1,26 @@
+[
+  {
+    "clientId": 1,
+    "gallonsRequested": 29.4,
+    "deliveryDate": "2018-11-17T06:00:00.000Z",
+    "requestDate": "2018-01-23T06:00:00.000Z",
+    "deliveryLocation": "223 N LBJ",
+    "deliveryContactName": "Jude Jesse",
+    "deliveryContactPhone":"2223334455",
+    "deliveryContactEmail":"abc@gmail.com",
+    "suggestedPrice":4000,
+    "totalAmountDue":5700,
+  },
+  {
+    "clientId": 2,
+    "gallonsRequested":70 ,
+    "deliveryDate": "2018-12-17T06:00:00.000Z",
+    "requestDate": "2015-10-17T06:00:00.000Z",
+    "deliveryLocation": "123 E Bugg Ln",
+    "deliveryContactName": "Emily Foster",
+    "deliveryContactPhone":"8739342342",
+    "deliveryContactEmail":"hij@gmail.com",
+    "suggestedPrice":15000,
+    "totalAmountDue":19000,
+  }
+]
