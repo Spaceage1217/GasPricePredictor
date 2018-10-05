@@ -11,19 +11,25 @@ var ClientInfoSchema = new Schema({
     },
     address: {
         type: String,
-        required: [true, 'Name field is required']
+        required: [true, 'Address field is required']
     },
     phone: {
         type: String,
-        minLength: 10,
-        maxLength 10,
-        required: [true, 'Name field is required']
+        required: [true, 'Phone number field is required']
     },
     email:{
-        type: String
+        type: String,
         required: [true, 'Email field is required']
     }
 
+});
+
+ClientInfoSchema.path('clientId')
+    .get(function(value) {
+        return value;
+    })
+    .set(function(value) {
+        return value;
 });
 
 ClientInfoSchema.path('name')
@@ -59,5 +65,5 @@ ClientInfoSchema.path('email')
 });
 
 //create model
-mongoose.model('ClientInfomation', ClientInfoSchema);
-module.exports = mongoose.model('ClientInfomation');
+mongoose.model('ClientInfo', ClientInfoSchema);
+module.exports = mongoose.model('ClientInfo');

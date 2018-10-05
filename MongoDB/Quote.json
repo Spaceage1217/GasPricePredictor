@@ -9,7 +9,7 @@
     "deliveryContactPhone":"2223334455",
     "deliveryContactEmail":"abc@gmail.com",
     "suggestedPrice":4000,
-    "totalAmountDue":5700,
+    "totalAmountDue":5700
   },
   {
     "clientId": 2,
@@ -21,6 +21,6 @@
     "deliveryContactPhone":"8739342342",
     "deliveryContactEmail":"hij@gmail.com",
     "suggestedPrice":15000,
-    "totalAmountDue":19000,
+    "totalAmountDue":19000
   }
 ]

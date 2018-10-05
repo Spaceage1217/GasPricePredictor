@@ -1,9 +1,17 @@
 [
   {
-    "clientId": 3,
+    "clientId": 1,
     "name": "Emmanuel Afolayan",
     "address": "1810, Aquarena Springs Drive, San Marcos, Texas",
     "phone": 2344328973,
     "email": "xyz@yahoo.com"
+  },
+
+  {
+    "clientId": 2,
+    "name": "Chiedu Anyah",
+    "address": "1810, Aquarena Springs Drive, San Marcos, Texas",
+    "phone": 2673338833,
+    "email": "asd@yahoo.com"
   }
 ]

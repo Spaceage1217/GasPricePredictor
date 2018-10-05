@@ -9,6 +9,7 @@ import {Provider} from 'react-redux';
 import configureStore from './redux/store';
 import { BrowserRouter, Route } from "react-router-dom";
 
+
 const store = configureStore();
 
 class App extends Component {
