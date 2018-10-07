@@ -27,7 +27,7 @@ class App extends Component {
                       <Route path="/clientInfo" exact component={ClientInfo}/>
                       <Route path="/requestQuote" component={RequestQuote}/>
                       <Route path="/quoteHistory" component={QuoteHistory}/>
-                      <Footer/>
+                      /*<Footer/>*/
                   </div>
               </BrowserRouter>
           </div>
